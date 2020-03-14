@@ -1,5 +1,6 @@
 // Your code here
 
+<<<<<<< HEAD
 function createEmployeeRecord(arr) {
     let employee = {
         firstName: arr[0],
@@ -59,4 +60,25 @@ function findEmployeeByFirstName(emp, firstNames) {
 
 function calculatePayroll(employeeRecords) {
     return employeeRecords.reduce((check, rec) => check + allWagesFor(rec), 0)
+=======
+function createEmployeeRecord (arr) {
+  let employee = {
+    firstName : arr[0],
+    familyName : arr[1],
+    title : arr[2],
+    payPerHour : arr[3],
+    timeInEvents : [],
+    timeOutEvents : []
+  }
+  return employee
+}
+
+function createEmployeeRecords (arr) {
+  
+  let newEmployee; 
+  for (let i = 0 ; i < createEmployeeRecord(arr).length; i++) {
+    newEmployee = []
+  }
+  return 
+>>>>>>> a46b21cdabaa70c8acaf4e6d100568626a1a74f2
 }
